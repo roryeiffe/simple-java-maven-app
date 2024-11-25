@@ -19,7 +19,7 @@ pipeline {
                 }
             }
         }
-        state('Deliver') {
+        stage('Deliver') {
           steps {
             bat 'echo "Delivering package to temporary staging environment"'
           }
